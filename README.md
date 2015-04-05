@@ -1,4 +1,6 @@
-# Beary VTMER
+# BearyChat VTMER
+
+[![Build Status](https://travis-ci.org/vtmer/bearychat.svg)](https://travis-ci.org/vtmer/bearychat)
 
 BearyChat x VTMER
 
