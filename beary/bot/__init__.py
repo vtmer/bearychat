@@ -12,7 +12,7 @@ from __future__ import absolute_import
 import re
 from flask import request, jsonify
 
-from . import gzbus
+from . import gzbus, yufou
 
 
 __all__ = ['init', 'BOTS']
@@ -90,6 +90,7 @@ def init(app):
 BOTS = [
 
     ('gzbus', gzbus.handle),
+    ('yufou', yufou.handle),
 
     # 默认的机器人响应
     (_whatever, _default_handler),
